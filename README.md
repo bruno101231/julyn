@@ -10,7 +10,7 @@
       color: #fff;
       text-align: center;
       padding: 50px;
-      overflow: hidden;
+      scroll-behavior: smooth;
     }
 
     h1 {
@@ -28,7 +28,9 @@
       margin: 20px auto;
       padding: 20px;
       border-radius: 15px;
-      max-width: 600px;
+      max-width: 700px;
+      line-height: 1.8em;
+      font-size: 1.1em;
     }
 
     .heart {
@@ -74,26 +76,71 @@
 </head>
 <body>
 
-  <h1>2 anos de namoro ❤️</h1>
+  <h1>2 anos de namoro ❤️ - Julia Lyn</h1>
   <div id="timer"></div>
 
   <div class="section">
     <h2>Como nos conhecemos</h2>
-    <p>Nos conhecemos em um dia muito especial, cheio de coincidências que só o destino poderia explicar.</p>
+    <p>
+      primeiramente eu gostaria de te falar UAU 2 ANOS EM,Nega que incrivel passar esses 2 anos ao seu lado, nosso encontro foi como o alinhamento perfeito das estrelas, inesperado e arrebatador. Desde o primeiro olhar, algo dentro de nós despertou e, sem perceber, começamos a construir algo maior do que nós mesmos: um amor puro, sincero e eterno. Cada conversa, cada risada e cada silêncio compartilhado nos uniu de uma forma inexplicável.
+    </p>
   </div>
 
   <div class="section">
     <h2>Nossos momentos favoritos</h2>
-    <p>Aquela viagem inesquecível, os jantares românticos e nossas risadas intermináveis.</p>
+    <p>
+      Como esquecer das nossas longas caminhadas de mãos dadas, dos jantares improvisados, das viagens que pareceram sonhos e das tardes preguiçosas em que simplesmente aproveitávamos a companhia um do outro? A cada data comemorada, a cada meta alcançada, nosso amor se fortaleceu, mostrando que somos mais felizes e completos quando estamos juntos.
+    </p>
   </div>
 
   <div class="section">
     <h2>Nossos planos</h2>
-    <p>Continuar construindo nossa história, viajando pelo mundo e sempre apoiando um ao outro.</p>
+    <p>
+      O futuro nos espera com infinitas possibilidades e, ao seu lado, sei que qualquer caminho será mais leve, mais bonito e mais cheio de sentido. Queremos viajar o mundo, criar uma família, conquistar nossos sonhos e, acima de tudo, continuar aprendendo e crescendo um com o outro. Que nunca nos faltem motivos para sorrir, para abraçar e para celebrar a sorte de termos nos encontrado.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Minha declaração</h2>
+    <p>
+      Quero que você saiba que te amo com toda a intensidade que cabe no meu coração. Você me inspira, me motiva e me completa. A sua presença torna meus dias mais felizes e me faz acreditar que o amor verdadeiro existe. Obrigado(a) por ser meu porto seguro, meu melhor amigo(a), meu amor e minha paz. Que venham muitos e muitos anos ao seu lado, construindo a nossa história com carinho, respeito e muita cumplicidade. Te amo, para sempre!
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>textinho🫦</h2>
+    <p>
+      Você me deixa completamente louco(a) com esse seu jeito doce e safado ao mesmo tempo... 😏 Amo quando você me provoca com esse olhar malicioso, só para depois se fazer de inocente! 💋 Te desejo de um jeito tão intenso que mal consigo me concentrar quando penso em você... e penso o tempo todo! ❤️🔥 Mas, ao mesmo tempo, quero te encher de beijos, te abraçar forte e cuidar de você como ninguém. 💕 Você é minha tentação favorita e minha fofura mais preciosa. 😍 Nunca duvide: meu amor por você é tão grande quanto minha vontade de te agarrar e nunca mais soltar! 😘
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Minhas Promessas Para Você</h2>
+    <p>
+      - Prometo sempre te surpreender com pequenos gestos de amor. 💝<br>
+      - Prometo te ouvir com atenção, mesmo quando falar coisas bobas. 😂<br>
+      - Prometo ser seu(a) cúmplice em todas as aventuras. 🌍<br>
+      - Prometo te abraçar forte sempre que precisar. 🤗<br>
+      - Prometo fazer de cada dia ao seu lado o mais especial possível. ✨
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Um Poema Só Para Você</h2>
+    <p>
+      Nos teus olhos encontro abrigo,<br>
+      No teu sorriso, meu destino.<br>
+      Te desejo, te admiro, te provoco...<br>
+      E te amo, cada dia um pouco mais.<br>
+      Entre risadas, beijos e abraços,<br>
+      Vamos seguindo, lado a lado,<br>
+      E o que sinto por você, meu amor,<br>
+      É eterno, sincero e apaixonado. ❤️
+    </p>
   </div>
 
   <script>
-    const startDate = new Date("2023-07-02T00:00:00"); // Data do início do relacionamento
+    const startDate = new Date("2023-07-02T00:00:00");
 
     function updateTimer() {
       const now = new Date();
@@ -116,7 +163,6 @@
     setInterval(updateTimer, 1000);
     updateTimer();
 
-    // Gerar corações flutuantes
     for (let i = 0; i < 20; i++) {
       const heart = document.createElement('div');
       heart.classList.add('heart');
